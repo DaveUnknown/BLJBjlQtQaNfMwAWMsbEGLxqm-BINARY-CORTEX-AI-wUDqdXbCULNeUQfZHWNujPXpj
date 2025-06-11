@@ -11,7 +11,7 @@ let config = {
     VELOCITY_DISSIPATION: 0.2,
     PRESSURE: 0.8,
     PRESSURE_ITERATIONS: 20,
-    CURL: 2,
+    CURL: 5,
     SPLAT_RADIUS: 0.20,
     SPLAT_FORCE: 6000,
     SHADING: true,
