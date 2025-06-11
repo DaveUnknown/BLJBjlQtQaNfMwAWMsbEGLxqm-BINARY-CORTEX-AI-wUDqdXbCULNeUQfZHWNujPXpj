@@ -4,14 +4,14 @@ const canvas = document.getElementsByTagName('canvas')[0];
 resizeCanvas();
 
 let config = {
-    SIM_RESOLUTION: 100,
+    SIM_RESOLUTION: 120,
     DYE_RESOLUTION: 1024,
     CAPTURE_RESOLUTION: 512,
     DENSITY_DISSIPATION: 0.8,
     VELOCITY_DISSIPATION: 0.2,
-    PRESSURE: 0.8,
-    PRESSURE_ITERATIONS: 20,
-    CURL: 5,
+    PRESSURE: 0.5,
+    PRESSURE_ITERATIONS: 15,
+    CURL: 2,
     SPLAT_RADIUS: 0.20,
     SPLAT_FORCE: 6000,
     SHADING: true,
@@ -27,12 +27,13 @@ let config = {
     BLOOM_THRESHOLD: 0.6,
     BLOOM_SOFT_KNEE: 0.9,
     SUNRAYS: true,
-    SUNRAYS_RESOLUTION: 196,
+    SUNRAYS_RESOLUTION: 132,
     SUNRAYS_WEIGHT: 0.5,
     SOUND_SENSITIVITY: 0.25,
     FREQ_RANGE: 40,
     FREQ_MULTI:0.1,
 }
+
 setTimeout(function() {
     
 }, 1000);
